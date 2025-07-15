@@ -1,9 +1,9 @@
 package week3Assignments;
-
+//inheriting from super class
 public class JavaConnection extends Mysqlconnection {
 
 	
-
+//unimplemented methods
 	@Override
 	public void connect() {
 		System.out.println("connected to database");
@@ -23,6 +23,7 @@ public class JavaConnection extends Mysqlconnection {
 	}
 	public static void main(String[] args) {
 		JavaConnection java=new JavaConnection();
+		//calling methods
 	    java.connect();
 	    java.disconnect();
 	    java.excuteupdate();
