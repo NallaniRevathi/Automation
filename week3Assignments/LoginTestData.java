@@ -1,5 +1,5 @@
 package week3Assignments;
-
+//inheriting super class
 public class LoginTestData extends TestData {
 	public void enterUsername()
     {
@@ -10,6 +10,7 @@ public class LoginTestData extends TestData {
         System.out.println("Entering password from LoginTestData--->subclass");
     }
 	public static void main(String[] args) {
+		//creating object and calling super class and subclass
 		LoginTestData call=new LoginTestData();
 		call.enterUsername();
 		call.enterPassword();
